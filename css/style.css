@@ -65,6 +65,7 @@ body {
   margin: 2rem 0;
   font-family: "Big Shoulders Display", cursive;
   font-size: 4rem;
+  text-transform: uppercase;
 }
 .cars-section__info {
   line-height: 25px;
