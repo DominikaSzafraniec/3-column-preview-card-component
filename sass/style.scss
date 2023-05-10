@@ -31,14 +31,14 @@ body {
 .section{
   display: flex;
   flex-direction: column;
-  margin: 0 2rem 5rem 2rem;
+  margin: 5rem 2rem;
 }
 
 .cars-section {
   font-family: 'Lexend Deca', sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
   &__item {
-    padding: 9rem 7rem;
+    padding: 9rem 4rem;
 
     &--sedan {
       background-color: hsl(31, 77%, 52%);
@@ -60,7 +60,7 @@ body {
 
   &__info {
     line-height: 25px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   &__btn {
@@ -69,7 +69,7 @@ body {
     background-color: hsl(0, 0%, 95%);
     border: none;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     border-radius: 20px;
     cursor: pointer;
     border: 1px solid hsla(0, 0%, 100%, 0.75);
@@ -99,6 +99,19 @@ footer {
   bottom: 2%;
 }
 
+@media(min-width: 568px) {
+  .cars-section {
+    &__info, &__btn {
+      font-size: 1.6rem;
+    }
+
+    &__item {
+      padding: 9rem 7rem;
+    }
+
+  }
+}
+
 
 @media(min-width: 992px) {
   .section {
@@ -109,6 +122,8 @@ footer {
     &__btn {
       margin-top: 8rem;
     }
+
+    
   }
 
 }
