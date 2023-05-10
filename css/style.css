@@ -50,7 +50,7 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
 }
 .cars-section__item {
-  padding: 5rem 7rem;
+  padding: 9rem 7rem;
 }
 .cars-section__item--sedan {
   background-color: hsl(31, 77%, 52%);
@@ -109,7 +109,7 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .cars-section__item {
-    padding: 4rem;
+  .cars-section__btn {
+    margin-top: 8rem;
   }
 }/*# sourceMappingURL=style.css.map */
